@@ -17,6 +17,21 @@ h2 {
     font-weight: bold;
 }
 
+#underline {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px 0px;
+    font-weight: bold;
+    /* text-decoration: underline;
+    text-decoration-color: coral;
+    text-decoration-style: dotted; */
+    border-bottom: 1px solid coral;
+    padding-bottom: 3px;
+    border-bottom-width: 3px;
+    border-bottom-style:dashed;
+}
+
 main {
     text-align: center;
     background-color:white;
