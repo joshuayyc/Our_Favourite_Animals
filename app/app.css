@@ -3,3 +3,85 @@
     margin:0px;
     padding:0px;
 }
+
+html {
+    background-color: grey;
+    min-width: 800px;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 0px;
+    font-weight: bold;
+}
+
+main {
+    text-align: center;
+    background-color:white;
+    border-radius: 20px;
+    padding: 20px 20px;
+    margin: 0px 200px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+#name {
+    font-size: 20px;
+    margin: 10px 0px;
+    font-weight: bolder;
+}
+
+#animal {
+    font-size: 15px;
+    margin: 5px 0px;
+    color: coral;
+}
+
+#text {
+    font-size: 15px;
+    margin: 10px 5px;
+    color: black;
+}
+
+#surprise {
+    color: coral;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    margin: 10px;
+}
+#surprise:hover {
+    color: white;
+    background-color: coral;
+    border-color: coral;
+}
+
+/* Create Arrow elements */
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+span {
+    margin: 20px;
+}
+
+span:hover {
+    background-color: grey;
+    width:100px;
+}
