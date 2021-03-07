@@ -1,0 +1,5 @@
+/* Sets default margin and padding to zero */
+* {
+    margin:0px;
+    padding:0px;
+}
